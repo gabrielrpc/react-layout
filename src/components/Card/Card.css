@@ -1,0 +1,42 @@
+.cardContainer {
+  margin-top: 35px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.cardContent {
+  position: relative;
+  height: 100px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconeCard {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+.contentText {
+  padding: 0.8em 0.5em;
+  width: 80%;
+  align-self: flex-end;
+}
+
+.tituloCard {
+  font-size: 1.2rem;
+}
+
+.descCard {
+  margin-top: 10px;
+  font-size: 1em;
+}
