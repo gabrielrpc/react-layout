@@ -33,7 +33,7 @@
 
 .iconBtnL {
   position: absolute;
-  z-index: 10;
+  z-index: 100;
   top: 50%;
   left: 50px;
   width: 50px;
@@ -62,7 +62,7 @@
 
 .iconBtnR {
   position: absolute;
-  z-index: 10;
+  z-index: 100;
   top: 50%;
   right: 50px;
   width: 50px;
@@ -102,6 +102,7 @@
 
 .principalTexto {
   position: absolute;
+  width: 100%;
   top: 80px;
   bottom: 0;
   left: 50%;
@@ -112,6 +113,7 @@
   flex-direction: column;
   text-align: center;
   color: #fff;
+  z-index: 50;
 }
 
 .principalTitulo {
@@ -189,6 +191,7 @@
   left: 50%;
   transform: translateX(-50%);
   gap: 5px;
+  z-index: 100;
 }
 
 .dot {
