@@ -46,7 +46,7 @@ const Slider = ({ slides }) => {
           );
         })}
 
-        <img className="imgMobile" src={mobile} alt="imagem mobile" />
+        <img className="imgMobile img" src={mobile} alt="imagem mobile" />
 
         <div className="container-square">
           {Array.from({ length: 3 }).map((item, index) => (

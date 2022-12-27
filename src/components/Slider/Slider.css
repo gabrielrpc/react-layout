@@ -2,7 +2,6 @@
   position: relative;
   width: 100%;
   height: 80vh;
-  background-color: #bca6ff;
 }
 
 .slide {
@@ -20,7 +19,7 @@
   opacity: 1;
   height: 100%;
   width: 100%;
-  transition-duration: 2s;
+  transition-duration: 1s;
   transform: scale(1);
 }
 
@@ -28,7 +27,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+  filter: sepia(20%);
+}
+
+.imgMobile {
+  display: none;
 }
 
 .iconBtnL {
@@ -91,13 +94,6 @@
 
 .arrow {
   color: black;
-}
-
-.imgMobile {
-  display: none;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .principalTexto {
